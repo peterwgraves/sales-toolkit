@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+env/
+
+# AWS credentials (NEVER commit these!)
+.aws/
+*.pem
+*credentials*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Environment
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Test files
+test_*.py
+debug_*.py
+downloaded_data/
